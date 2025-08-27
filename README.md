@@ -1,10 +1,16 @@
-# Fraud Detection with LightGBM
+# Fraud Detection
 
-This project implements a binary classification pipeline for detecting fraudulent transactions using tabular data. The approach leverages real-world financial transaction and identity features, combined with feature engineering, preprocessing, and LightGBM modeling.
+This project implements a binary classification pipeline for detecting fraudulent transactions using tabular data. The approach leverages real-world financial transaction and identity features, combined with feature engineering, preprocessing, and modeling.
 
 ## 🔍 Problem Overview
 
-The goal is to predict whether a transaction is fraudulent based on user, transaction, and device-related attributes. The dataset includes rich structured data across hundreds of fields.
+The goal is to predict whether a transaction is fraudulent based on user, transaction, and device-related attributes.
+
+This project uses a real-world anonymized dataset of online transactions with device and identity metadata. You can download the dataset from this public competition page:
+[https://www.kaggle.com/competitions/ieee-fraud-detection/data](https://www.kaggle.com/competitions/ieee-fraud-detection/data)
+
+After downloading, place the following four CSV files into a new `data/` folder in the project root.
+
 
 ## 🧠 Key Features
 
